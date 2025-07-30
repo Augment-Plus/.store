@@ -3,7 +3,7 @@
 const env = process.env.NODE_ENV || 'development';
 
 const baseConfig = {
-  appName: 'Basic Node App',
+  appName: 'Extension',
   port: process.env.PORT || 3000,
 };
 
