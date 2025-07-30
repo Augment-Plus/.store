@@ -1,0 +1,19 @@
+{
+  "name": "supercpanel",
+  "version": "1.0.0",
+  "description": "Node Express server for SuperCPanel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "update-template": "git remote add template https://github.com/genesiskrane/node-express && git fetch template && git merge template/main --allow-unrelated-histories"
+  },
+  "author": "Genesis Krane",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1"
+  }
+}
